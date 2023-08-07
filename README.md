@@ -1,4 +1,4 @@
-# Python-Multiple-File-Downloader
+# Python Multiple File Downloader
 
 This is a Python script that allows you to download PDF files from a list of URLs provided in a CSV file. It utilizes the `requests` library for making HTTP requests, `BeautifulSoup` for HTML parsing, and the `csv` library for reading CSV files.
 
@@ -63,3 +63,5 @@ This is a Python script that allows you to download PDF files from a list of URL
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+## Developer
+This Script is Developed by [Dev Tarak](https://devtarak.github.io/)
