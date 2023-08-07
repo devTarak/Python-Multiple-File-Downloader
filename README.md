@@ -64,4 +64,4 @@ This is a Python script that allows you to download PDF files from a list of URL
 
 This project is licensed under the [MIT License](LICENSE).
 ## Developer
-This Script is Developed by [Dev Tarak](https://devtarak.github.io/)
+This Script is Developed by [Tarak Rahman](https://devtarak.github.io/)
