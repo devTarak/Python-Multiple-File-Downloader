@@ -35,7 +35,7 @@ csv_file_path = 'source-file-list.csv'
 names_list = []
 with open(csv_file_path, 'r') as csv_file:
     csv_reader = csv.reader(csv_file)
-    next(csv_reader)  # Skip the header row
+    next(csv_reader)  
     for row in csv_reader:
         names_list.append(row[0])
 
