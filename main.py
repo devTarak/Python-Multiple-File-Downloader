@@ -44,5 +44,5 @@ with open(csv_file_path, 'r') as csv_file:
 
 download_folder = "downloaded_pdfs"
 for name in names_list:
-    url = f"https://api.codewithharry.com/media/videoSeriesFiles/courseFiles/{name}/" //replace this Url accroding to your needs
+    url = f"https://api.codewithharry.com/media/videoSeriesFiles/courseFiles/{name}/" #replace this Url accroding to your needs
     find_and_download_pdfs(url, download_folder)
