@@ -2,7 +2,10 @@ import os
 import requests
 from bs4 import BeautifulSoup
 import csv
-
+"""
+This Script is developed by Developer Tarak.
+visit: https://devtarak.github.io/
+"""
 
 def download_pdf(url, folder, filename):
     response = requests.get(url)
@@ -41,5 +44,5 @@ with open(csv_file_path, 'r') as csv_file:
 
 download_folder = "downloaded_pdfs"
 for name in names_list:
-    url = f"https://api.codewithharry.com/media/videoSeriesFiles/courseFiles/{name}/"
+    url = f"https://api.codewithharry.com/media/videoSeriesFiles/courseFiles/{name}/" //replace this Url accroding to your needs
     find_and_download_pdfs(url, download_folder)
