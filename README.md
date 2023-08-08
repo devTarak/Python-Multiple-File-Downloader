@@ -35,13 +35,7 @@ This is a Python script that allows you to download PDF files from a list of URL
    Create a CSV file named `source-file-list.csv` with a single column containing the URLs you want to download PDFs from.
 
    Example `source-file-list.csv`:
-   ```
-   java-tutorials-for-beginners-1/
-   java-tutorials-for-beginners-2/
-   java-tutorials-for-beginners-3/
-   java-tutorials-for-beginners-4/
-   java-tutorials-for-beginners-5/
-   ```
+   ![source CSV File ](Dependence/Screenshot_11.png)
 
 5. Edit the script:
 
